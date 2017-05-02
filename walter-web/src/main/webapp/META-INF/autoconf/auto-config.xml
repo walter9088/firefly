@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <group>
+        <property name="com.firefly.autoconfig.test" defaultValue="index" description="" required="true">
+        </property>
+    </group>
+    <script>
+        <generate template="WEB-INF/web.xml" destfile="WEB-INF/web.xml" charset="UTF-8" outputCharset="UTF-8"/>
+    </script>
+</config>

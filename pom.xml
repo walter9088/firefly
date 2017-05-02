@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
+	
 	<inceptionYear>2017</inceptionYear>
+	
 	<groupId>com.walter</groupId>
 	<artifactId>walter-parent</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0.0-SNAPSHOT</version>
+	
 	<name>walter-parent</name>
 	
 	<properties>
 		<junit.version>4.10</junit.version>
 		<spring.version>3.2.2.RELEASE</spring.version>
 		<mockito.version>1.9.0</mockito.version>
-		<ki4so.version>1.0.1-SNAPSHOT</ki4so.version>
+		<walter.version>1.0.1-SNAPSHOT</walter.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	
 	<modules>
+		<module>walter-web</module>
 	</modules>
 	
 	<build>
