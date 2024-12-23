@@ -3,9 +3,9 @@
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	
-	<inceptionYear>2017</inceptionYear>
-	
+
+	<inceptionYear>this is test</inceptionYear>
+
 	<groupId>com.walter</groupId>
 	<artifactId>walter-parent</artifactId>
 	<packaging>pom</packaging>
